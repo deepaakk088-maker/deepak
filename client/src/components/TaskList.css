@@ -1,0 +1,201 @@
+.task-list-container {
+  padding: 0;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--surface-border);
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.master-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.master-schedule-table th {
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--surface-border);
+  white-space: nowrap;
+}
+
+.task-row {
+  transition: all 0.2s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.task-row:last-child {
+  border-bottom: none;
+}
+
+.task-row:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.task-row td {
+  padding: 16px 24px;
+  vertical-align: middle;
+}
+
+.cell-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.icon-subtle {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.primary-text {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.time-text {
+  font-family: inherit;
+  font-variant-numeric: tabular-nums;
+  color: var(--primary-hover);
+  background: rgba(109, 40, 217, 0.1);
+  padding: 4px 10px;
+  border-radius: 6px;
+  display: inline-flex;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  display: inline-block;
+}
+
+/* Status Badge Styling */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.status-badge.success {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--success);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.status-badge.pending {
+  background: rgba(109, 40, 217, 0.15);
+  color: var(--primary-light);
+  border: 1px solid rgba(109, 40, 217, 0.3);
+}
+
+.status-badge.warning {
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--warning);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+/* Column specific widths/adjustments */
+.col-message { min-width: 250px; }
+.col-date, .col-time { white-space: nowrap; }
+.col-actions { width: 60px; text-align: center; }
+
+/* States */
+.task-row.sent .cell-content, 
+.task-row.sent .time-text {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.task-row.sent .status-badge {
+  text-decoration: none;
+}
+
+.delete-btn-table {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn-table:hover {
+  color: var(--danger);
+  background: rgba(239, 68, 68, 0.1);
+  transform: scale(1.1);
+}
+
+.edit-btn-table {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-btn-table:hover {
+  color: var(--primary-light);
+  background: rgba(109, 40, 217, 0.1);
+  transform: scale(1.1);
+}
+
+/* Empty State */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.empty-state-icon {
+  width: 80px; height: 80px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  color: var(--text-muted);
+}
+
+.empty-state p {
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.empty-state span {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}

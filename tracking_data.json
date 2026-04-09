@@ -1,0 +1,402 @@
+[
+  {
+    "message": "Factory visit done",
+    "scheduled_time": "2026-01-01T04:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-01",
+    "original_time": "10:00",
+    "place": "Factory visit done"
+  },
+  {
+    "message": "HR - Project review",
+    "scheduled_time": "2026-01-02T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-02",
+    "original_time": "09:00",
+    "place": "HR - Project revie"
+  },
+  {
+    "message": "visit done /zoom call GRT/complaince calender/yet to madurai/bank/amudhan",
+    "scheduled_time": "2026-01-04T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-04",
+    "original_time": "09:00",
+    "place": "visit done /zoom c"
+  },
+  {
+    "message": "Statuatory audit-Venkatesh",
+    "scheduled_time": "2026-01-05T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-05",
+    "original_time": "09:00",
+    "place": "Statuatory audit-V"
+  },
+  {
+    "message": "SRM-Ramapuram meeting",
+    "scheduled_time": "2026-01-06T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-06",
+    "original_time": "09:00",
+    "place": "SRM-Ramapuram meet"
+  },
+  {
+    "message": "madurai-SAS-Visit",
+    "scheduled_time": "2026-01-07T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-07",
+    "original_time": "09:00",
+    "place": "madurai-SAS-Visit "
+  },
+  {
+    "message": "Yercaud site-yet to do/villa 23-nancy Ramesh-yet Priyashankar/times of india/Dr.Shankar/magesh visit anirudh",
+    "scheduled_time": "2026-01-08T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-08",
+    "original_time": "09:00",
+    "place": "Yercaud site-yet t"
+  },
+  {
+    "message": "pongal/reminder yercaurd schedule assure/nandhanam-3pm/MLA-pongal-visit-prancy residence-balaji visit",
+    "scheduled_time": "2026-01-11T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-11",
+    "original_time": "09:00",
+    "place": "pongal/reminder ye"
+  },
+  {
+    "message": "kesvan-zoom-artisim",
+    "scheduled_time": "2026-01-12T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-12",
+    "original_time": "09:00",
+    "place": "kesvan-zoom-artisi"
+  },
+  {
+    "message": "yet to make a call to MD",
+    "scheduled_time": "2026-01-17T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-17",
+    "original_time": "09:00",
+    "place": "yet to make a call"
+  },
+  {
+    "message": "Yercaud site 19/26/Harstha",
+    "scheduled_time": "2026-01-18T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-18",
+    "original_time": "09:00",
+    "place": "Yercaud site 19/26"
+  },
+  {
+    "message": "factory visit-cabin area/Rajkumar-infinthism after bangalore/vadapalani-relative home",
+    "scheduled_time": "2026-01-19T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-19",
+    "original_time": "09:00",
+    "place": "factory visit-cabi"
+  },
+  {
+    "message": "Kumbakonam-engagement-sunmar-visit to do/GRT-Kumbakonam/space cum arch/payment",
+    "scheduled_time": "2026-01-21T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-21",
+    "original_time": "09:00",
+    "place": "Kumbakonam-engagem"
+  },
+  {
+    "message": "sanjeev-sun housewill confirm visit/devi prasath along with client-yet to confirmed/praveena madam/Ameerah design-11am/spoorthi residency-2.30 pm/",
+    "scheduled_time": "2026-01-22T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-22",
+    "original_time": "09:00",
+    "place": "sanjeev-sun housew"
+  },
+  {
+    "message": "balasubraminam-vadapalani/namaveetuvasath bhavan",
+    "scheduled_time": "2026-01-24T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-24",
+    "original_time": "09:00",
+    "place": "balasubraminam-vad"
+  },
+  {
+    "message": "gift cover/visiting card sample-meeting yet to kesavan",
+    "scheduled_time": "2026-01-25T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-25",
+    "original_time": "09:00",
+    "place": "gift cover/visitin"
+  },
+  {
+    "message": "saahithaa/pranab-GRT/royal bathroom-GST Rd-7397399823/balaganesh/hema-sppharden-maduravoyal",
+    "scheduled_time": "2026-01-26T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-26",
+    "original_time": "09:00",
+    "place": "saahithaa/pranab-G"
+  },
+  {
+    "message": "velamel fact/GRT-kodai-4pm/vishali enterprise-karaikudi-shop no:8012277444",
+    "scheduled_time": "2026-01-27T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-27",
+    "original_time": "09:00",
+    "place": "velamel fact/GRT-k"
+  },
+  {
+    "message": "train-vandeBharat/sunmar/SAS-madurai",
+    "scheduled_time": "2026-01-28T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-28",
+    "original_time": "09:00",
+    "place": "train-vandeBharat/"
+  },
+  {
+    "message": "regular office meeting/praveena-madam/time yet to finalize",
+    "scheduled_time": "2026-01-29T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-29",
+    "original_time": "09:00",
+    "place": "regular office mee"
+  },
+  {
+    "message": "mustasz-GRT/vignesh/shankari-kingmaker-wedding conventions/vanagaram/hd-3 site visit",
+    "scheduled_time": "2026-01-30T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-30",
+    "original_time": "09:00",
+    "place": "mustasz-GRT/vignes"
+  },
+  {
+    "message": "ISO-audit meeting review",
+    "scheduled_time": "2026-01-31T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-01-31",
+    "original_time": "09:00",
+    "place": "ISO-audit meeting "
+  },
+  {
+    "message": "dhuruv/cfo/stock factory visit-MD iput/A/C/Anand sir-4.30pm/ment@5.00pm/factory",
+    "scheduled_time": "2026-02-01T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-01",
+    "original_time": "09:00",
+    "place": "dhuruv/cfo/stock f"
+  },
+  {
+    "message": "dhuruv-meeting/arun-update/madural travel plan",
+    "scheduled_time": "2026-02-02T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-02",
+    "original_time": "09:00",
+    "place": "dhuruv-meeting/aru"
+  },
+  {
+    "message": "GM-internal/estimation/design/sunmark-meeting-2pm/dhamapad-st-balaji zibe works/praveena/yet to site",
+    "scheduled_time": "2026-02-03T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-03",
+    "original_time": "09:00",
+    "place": "GM-internal/estima"
+  },
+  {
+    "message": "factory visit/Thursday-Diabetes-6.30pm/MD-sister",
+    "scheduled_time": "2026-02-04T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-04",
+    "original_time": "09:00",
+    "place": "factory visit/Thur"
+  },
+  {
+    "message": "Theni western ghatz hotel yet to book ticket/hyd-inaurg bhime/cellon harish-confirm",
+    "scheduled_time": "2026-02-05T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-05",
+    "original_time": "09:00",
+    "place": "Theni western ghat"
+  },
+  {
+    "message": "Theni concell postponed/office,velamnal,factory sunmar meeting",
+    "scheduled_time": "2026-02-06T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-06",
+    "original_time": "09:00",
+    "place": "Theni concell post"
+  },
+  {
+    "message": "preethi eye 5pm",
+    "scheduled_time": "2026-02-07T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-07",
+    "original_time": "09:00",
+    "place": "preethi eye 5pm "
+  },
+  {
+    "message": "sugam resort@manivakkam/udhayanidhi&nikitha-6.30pm/client/swetha madam pulikudam(harish)-cbe/sisitive/list weeklist",
+    "scheduled_time": "2026-02-08T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-08",
+    "original_time": "09:00",
+    "place": "sugam resort@maniv"
+  },
+  {
+    "message": "office meeting-suresh:dhuruv-meeting-yet to confirm 2-3pm /G.meeting/interview",
+    "scheduled_time": "2026-02-09T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-09",
+    "original_time": "09:00",
+    "place": "office meeting-sur"
+  },
+  {
+    "message": "Gandhitham-wood-kumbakonam GRT-ash wood,teak,pipe/visu/peach,markeni/ahmehbad hotel-doubt/praveena madam-meeting-2half",
+    "scheduled_time": "2026-02-10T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-10",
+    "original_time": "09:00",
+    "place": "Gandhitham-wood-ku"
+  },
+  {
+    "message": "starwood-ticket book rajesh/doubt/HYD(pooja)/palani-travel",
+    "scheduled_time": "2026-02-11T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-11",
+    "original_time": "09:00",
+    "place": "starwood-ticket bo"
+  },
+  {
+    "message": "pooja-HYD-travel/HYD-cellcon/site visit",
+    "scheduled_time": "2026-02-12T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-12",
+    "original_time": "09:00",
+    "place": "pooja-HYD-travel/H"
+  },
+  {
+    "message": "return Gandhitham-craa doubt/cbe-yet to confirm /mahatria-9amto11am/dinesh-srivaricontract@12.30pm",
+    "scheduled_time": "2026-02-13T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-13",
+    "original_time": "09:00",
+    "place": "return Gandhitham-"
+  },
+  {
+    "message": "factory/schedule/site discussion",
+    "scheduled_time": "2026-02-15T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-15",
+    "original_time": "09:00",
+    "place": "factory/schedule/s"
+  },
+  {
+    "message": "project review meeting/as per dhruv(15days once requested)(be pulikudam booked confirmed)",
+    "scheduled_time": "2026-02-16T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-16",
+    "original_time": "09:00",
+    "place": "project review mee"
+  },
+  {
+    "message": "preaveena madam met dinner/dhakshan school function",
+    "scheduled_time": "2026-02-17T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-17",
+    "original_time": "09:00",
+    "place": "preaveena madam me"
+  },
+  {
+    "message": "arch.amaal.ref.yet to call",
+    "scheduled_time": "2026-02-18T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-18",
+    "original_time": "09:00",
+    "place": "arch.amaal.ref.yet"
+  },
+  {
+    "message": "seenivel bro.mer,trichy,sunnar,puduvoyal visit/GRT Kumbakonam arch-travel-confirmed/concall@11.30-manoready",
+    "scheduled_time": "2026-02-19T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-19",
+    "original_time": "09:00",
+    "place": "seenivel bro.mer,t"
+  },
+  {
+    "message": "sennivel-brother-marriage@perumbulur/GJ.enterprises-jaishankar@mrg.dhuruv meeting@11.30.temple towers/a.sunil philip-call/nandhatime-radison",
+    "scheduled_time": "2026-02-20T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-20",
+    "original_time": "09:00",
+    "place": "sennivel-brother-m"
+  },
+  {
+    "message": "sanmar/afternoon(mam)chandrasekar",
+    "scheduled_time": "2026-02-21T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-21",
+    "original_time": "09:00",
+    "place": "sanmar/afternoon(m"
+  },
+  {
+    "message": "committee meeting@office/chandrasekar/ragavan/praveena/suresh@9.30/10.30/proper meeting with GRT-mistaq/nandha/harish",
+    "scheduled_time": "2026-02-22T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-22",
+    "original_time": "09:00",
+    "place": "committee meeting@"
+  },
+  {
+    "message": "review meeting @factory/combined",
+    "scheduled_time": "2026-02-23T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-23",
+    "original_time": "09:00",
+    "place": "review meeting @fa"
+  },
+  {
+    "message": "oness villa visit / Neelkarai Site - Dhuru Annan / SRM West / praveena-madam-2nd half/royalenfield country head meeting with chandrasekar?",
+    "scheduled_time": "2026-02-24T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-24",
+    "original_time": "09:00",
+    "place": "oness villa visit "
+  },
+  {
+    "message": "india wood",
+    "scheduled_time": "2026-02-25T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-25",
+    "original_time": "09:00",
+    "place": "india wood "
+  },
+  {
+    "message": "india wood",
+    "scheduled_time": "2026-02-26T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-26",
+    "original_time": "09:00",
+    "place": "india wood "
+  },
+  {
+    "message": "timber/salem/visit/india wood",
+    "scheduled_time": "2026-02-27T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-02-27",
+    "original_time": "09:00",
+    "place": "timber/salem/visit"
+  },
+  {
+    "message": "Factory Visit / audit team for Stock Additional Scope /",
+    "scheduled_time": "2026-03-01T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-03-01",
+    "original_time": "09:00",
+    "place": "Factory Visit / au"
+  },
+  {
+    "message": "KSR Maladives / Smurthi / Jayash",
+    "scheduled_time": "2026-03-02T03:30:00.000Z",
+    "is_sent": false,
+    "original_date": "2026-03-02",
+    "original_time": "09:00",
+    "place": "KSR Maladives / Sm"
+  }
+]

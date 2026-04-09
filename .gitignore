@@ -1,0 +1,14 @@
+node_modules/
+**/node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+dist/
+dist-ssr/
+build/
+.whatsapp-session/
+.wwebjs_auth/
+.wwebjs_cache/
+.puppeteer/
+*.log
