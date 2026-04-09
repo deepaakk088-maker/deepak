@@ -16,7 +16,7 @@ const TaskForm = ({ onSuccess, initialData = null }) => {
     if (initialData) {
       setMessage(initialData.message || '');
       setPlace(initialData.place || '');
-      setFunc(initialData.function || '');
+      setFunc(initialData.Description || '');
       if (initialData.scheduled_time) {
         const dt = new Date(initialData.scheduled_time);
         setScheduledDate(dt.toISOString().split('T')[0]);
@@ -46,7 +46,7 @@ const TaskForm = ({ onSuccess, initialData = null }) => {
             message,
             scheduled_time: scheduledTimestamp,
             place: place,
-            function: func
+            Description: func
           })
           .eq('id', initialData.id);
         if (submitError) throw submitError;
@@ -59,7 +59,7 @@ const TaskForm = ({ onSuccess, initialData = null }) => {
               scheduled_time: scheduledTimestamp,
               is_sent: false,
               place: place,
-              function: func
+              Description: func
             }
           ]);
         if (submitError) throw submitError;
@@ -129,7 +129,7 @@ const TaskForm = ({ onSuccess, initialData = null }) => {
           </div>
           
           <div className="form-group">
-            <label>Function</label>
+            <label>Description</label>
             <input 
               type="text" 
               className="glass-input"

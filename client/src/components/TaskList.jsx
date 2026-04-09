@@ -41,7 +41,7 @@ const TaskList = ({ tasks, onUpdate, onEdit }) => {
               <th>Time</th>
               <th>Task / Meeting</th>
               <th>Place</th>
-              <th>Function</th>
+              <th>Description</th>
               <th>Status</th>
               <th>Actions</th>
             </tr>
@@ -82,8 +82,8 @@ const TaskList = ({ tasks, onUpdate, onEdit }) => {
                   </td>
                   <td className="col-function">
                     <div className="cell-content">
-                      {task.function ? <Briefcase size={14} className="icon-subtle" /> : null}
-                      <span className="truncate">{task.function || '-'}</span>
+                      {task.Description ? <Briefcase size={14} className="icon-subtle" /> : null}
+                      <span className="truncate">{task.Description || '-'}</span>
                     </div>
                   </td>
                   <td className="col-status">

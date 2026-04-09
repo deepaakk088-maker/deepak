@@ -114,7 +114,7 @@ const Dashboard = () => {
             message: rawTask.trim(),
             scheduled_time: new Date(`${dateStr}T${timeStr}:00`).toISOString(),
             place: row['Place'] || '',
-            function: row['Function '] || row['Function'] || '',
+            Description: row['Function '] || row['Function'] || row['Description'] || '',
             is_sent: false
         });
       }
