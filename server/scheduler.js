@@ -1,10 +1,10 @@
 import cron from 'node-cron';
 import { supabase } from './services/supabaseClient.js';
-import { sendMessage, getClientStatus } from './services/whatsappService.js';
+import { sendMessage, getClientStatus } from './services/telegramService.js';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const targetNumber = process.env.WHATSAPP_TARGET_NUMBER;
+const targetChatId = process.env.TELEGRAM_CHAT_ID;
 
 export const startScheduler = () => {
     console.log("Starting scheduler...");
@@ -39,12 +39,12 @@ export const startScheduler = () => {
                 console.log(`Found ${tasks.length} due tasks to send.`);
                 
                 for (const task of tasks) {
-                    if (!targetNumber) {
-                        console.error("WHATSAPP_TARGET_NUMBER not defined in .env");
+                    if (!targetChatId) {
+                        console.error("TELEGRAM_CHAT_ID not defined in .env");
                         continue;
                     }
                     
-                    const success = await sendMessage(targetNumber, `🔔 Reminder: ${task.message}`);
+                    const success = await sendMessage(targetChatId, `🔔 Reminder: ${task.message}`);
                     
                     if (success) {
                         // Mark as sent
