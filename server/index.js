@@ -12,6 +12,10 @@ app.get('/health', (req, res) => {
     res.json({ status: 'Scheduler backend is running' });
 });
 
+app.get('/', (req, res) => {
+    res.send('AI Scheduler Bot Backend is Active');
+});
+
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on port ${PORT}`);
     startScheduler();

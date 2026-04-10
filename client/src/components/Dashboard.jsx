@@ -62,6 +62,7 @@ const Dashboard = () => {
   const handleEditTask = (task) => {
     setEditingTask(task);
     setShowForm(true);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleFileUpload = async (event) => {

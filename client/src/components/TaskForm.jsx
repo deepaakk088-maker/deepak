@@ -19,8 +19,14 @@ const TaskForm = ({ onSuccess, initialData = null }) => {
       setFunc(initialData.Description || '');
       if (initialData.scheduled_time) {
         const dt = new Date(initialData.scheduled_time);
-        setScheduledDate(dt.toISOString().split('T')[0]);
-        setScheduledTime(dt.toTimeString().slice(0, 5));
+        const year = dt.getFullYear();
+        const month = String(dt.getMonth() + 1).padStart(2, '0');
+        const day = String(dt.getDate()).padStart(2, '0');
+        setScheduledDate(`${year}-${month}-${day}`);
+        
+        const hours = String(dt.getHours()).padStart(2, '0');
+        const minutes = String(dt.getMinutes()).padStart(2, '0');
+        setScheduledTime(`${hours}:${minutes}`);
       }
     }
   }, [initialData]);
